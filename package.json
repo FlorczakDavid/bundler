@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-vue": "^6.0.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {

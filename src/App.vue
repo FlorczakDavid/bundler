@@ -1,9 +1,9 @@
 <script>
-import MyHeader from './components/MyHeader.vue';
+import MyView from './components/MyView.vue';
 
 export default {
   components: {
-    MyHeader
+    MyView
   }
 }
 </script>
@@ -11,22 +11,7 @@ export default {
 <template>
   <header>
     <div>
-      <!-- <my-header>
-        <template #title>
-          Test Title
-        </template>
-        <template #sub-title>
-          Test subtitle
-        </template>
-      </my-header> -->
-      <MyHeader>
-        <template #title>
-          Test Title
-        </template>
-        <template #sub-title>
-          Test subtitle
-        </template>
-      </MyHeader>
+      <MyView />
     </div>
   </header>
 </template>

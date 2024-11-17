@@ -5,3 +5,8 @@ export function generateMapUrl(coordinates, zoom = 18) {
         `${constants.CENTER_PROMPT}${coordinates.y},${coordinates.x}`+
         `${constants.ZOOM_PROMPT}${zoom}`;
 }
+
+//UNUSED
+export function unusedFunction() {
+    return 'Hello itp4!'
+}

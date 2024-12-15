@@ -1,5 +1,5 @@
 <script>
-import MyView from './components/MyView.vue';
+import MyView from './views/MyView.vue';
 
 export default {
   components: {

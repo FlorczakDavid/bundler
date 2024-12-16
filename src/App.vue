@@ -1,18 +1,17 @@
 <script>
-import MyView from './views/MyView.vue';
+import fullView from '../entry-view.js';
+// import navBar from '../entry-adress-searcher.js'
 
 export default {
   components: {
-    MyView
+    fullView
   }
 }
 </script>
 
 <template>
-  <header>
     <div>
-      <MyView />
+      <fullView />
     </div>
-  </header>
 </template>
 

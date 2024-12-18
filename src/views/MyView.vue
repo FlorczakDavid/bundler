@@ -24,7 +24,7 @@ export default {
         },
         //UNUSED
         unusedFunctionMV() {
-            return 'Hello itp4!'
+            return 'Hello itp4! MV'
         }
     },
     mounted() {

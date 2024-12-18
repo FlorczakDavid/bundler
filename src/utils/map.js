@@ -8,5 +8,5 @@ export function generateMapUrl(coordinates, zoom = 18) {
 
 //UNUSED
 export function unusedFunction() {
-    return 'Hello itp4!'
+    return 'Hello itp4! UTILS'
 }

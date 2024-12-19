@@ -1,18 +1,8 @@
 <script>
-import MyView from './views/MyView.vue';
-
-export default {
-  components: {
-    MyView
-  }
-}
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <header>
-    <div>
-      <MyView />
-    </div>
-  </header>
+      <RouterView />
 </template>
 

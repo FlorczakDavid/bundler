@@ -6,12 +6,12 @@ const router = createRouter({
         {
             path: '/',
             name: 'maps-view',
-            component: () => import('../views/MyView.vue'),
+            component: () => import('../../entry-view.js'),
         },
         {
             path: '/three',
             name: 'three-view',
-            component: () => import('../views/MyThreeView.vue'),
+            component: () => import('../../entry-cube.js'),
         },
         {
             path: '/:notFound',
